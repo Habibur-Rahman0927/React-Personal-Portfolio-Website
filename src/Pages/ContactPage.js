@@ -14,7 +14,7 @@ const ContactPage = () => {
 
             <div className="ContactPage">
                 <div className="map-sect">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7289.142505088172!2d90.31701162295458!3d24.010912738321167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dda343fb798b%3A0x8eb85c599592cb2b!2sKonabari!5e0!3m2!1sen!2sbd!4v1623592953410!5m2!1sen!2sbd" style={{ border: "0px", height: "450", width: "600" }} allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7289.142505088172!2d90.31701162295458!3d24.010912738321167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755dda343fb798b%3A0x8eb85c599592cb2b!2sKonabari!5e0!3m2!1sen!2sbd!4v1623592953410!5m2!1sen!2sbd" style={{ border: "0px", height: "450", width: "600" }} loading="lazy" title="ifame"></iframe>
                 </div>
                 <div className="contect-sect">
                     <ContactItem icon={phone} text1={"+8801643369104"} text2={"+8801751149979"} title={"Phone"}></ContactItem>

@@ -26,7 +26,7 @@ const LogInPage = () => {
         success: false
     });
 
-    const [loggedInUser, setLoggedInUser] = useContext(UserContext);
+    const [ setLoggedInUser] = useContext(UserContext);
     const history = useHistory();
     const location = useLocation();
     let { from } = location.state || { from: { pathname: "/" } };
@@ -48,10 +48,6 @@ const LogInPage = () => {
                 history.replace(from)
 
             }).catch((error) => {
-                var errorCode = error.code;
-                var errorMessage = error.message;
-                var email = error.email;
-                var credential = error.credential;
             });
     }
 
@@ -61,18 +57,12 @@ const LogInPage = () => {
             .auth()
             .signInWithPopup(facebookProvider)
             .then((result) => {
-                var credential = result.credential;
                 var { displayName, email ,photoURL} = result.user;
                 const signedInUser = { name: displayName, email, photo: photoURL}
-                var accessToken = credential.accessToken;
                 setLoggedInUser(signedInUser);
                 history.replace(from);
             })
             .catch((error) => {
-                var errorCode = error.code;
-                var errorMessage = error.message;
-                var email = error.email;
-                var credential = error.credential;
             });
     }
 

@@ -5,7 +5,7 @@ import MenuItem from '../Component/MenuItem';
 import AllPortfolios from '../Component/AllPortfolios';
 const allCategories = ["All", ...new Set(AllPortfolios.map(item => item.category))];
 const PortfolioPage = () => {
-    const [catagores, setCatagores] = useState(allCategories);
+    const [catagores] = useState(allCategories);
     const [menu, setMenu] = useState(AllPortfolios);
     const filter = category =>{
         if(category ==="All"){
