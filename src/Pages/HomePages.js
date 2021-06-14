@@ -8,7 +8,7 @@ const HomePages = () => {
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">Hi, I am <span>Habibur Rahman</span></h1>
-                <p className="h-sub-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam omnis fugiat ipsam repudiandae a tenetur quae deserunt odit assumenda, cupiditate velit iste, consectetur dolores? Sapiente obcaecati dolor ab aspernatur accusamus!</p>
+                <p className="h-sub-text">Hello, Everyone I am Habibur Rahaman.I study at Dhaka Polytechnic Institute in computer scince.I am expert web design and developing.I must give you a better Services than Others.I have an exquisite blend of experience in HTML, CSS, BOOTSTRAP, JQUERY, JAVASCRIPT, REACT, NODE JS, EXPRESS JS, MONGODB etc and I am ready to start working on your projects.I assure you that you'll get your job done correctly,on time and within your budget.Please feel free to contact with me any time</p>
             </header>
             <div className="icons">
                 <Link to={{ pathname: "https://www.facebook.com/mdhabibur.rahaman.9400/" }} target="_blank"  className="icon-holder"><FontAwesomeIcon icon={faFacebook} className="icon fb"></FontAwesomeIcon></Link>
