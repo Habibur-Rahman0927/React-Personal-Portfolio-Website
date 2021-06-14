@@ -1,0 +1,160 @@
+.form-style{
+    border: 1px solid rgb(206, 212, 218);
+    border-radius: 5px;
+    margin: 0px auto;
+    padding: 30px;
+    height: 395px;
+    width: 500px;
+}
+.all-margin{
+    border:none !important;
+    border-bottom-color: rgb(206, 212, 218) !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+    margin: 30px 0px;
+}
+.button-center{
+    text-align: center;
+}
+.buttonstyle{
+    border: none;
+    height: 45px;
+    width: 435px;
+    color: white;
+    background-color: #037FFF;
+    border-radius: 5px;
+}
+.linestyle{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.line{
+    background-color: white;
+    height: 1px;
+    width: 200px;
+    margin-top: 12px;
+}
+.orstyle{
+    margin: 0px 5px;
+}
+
+.BtnStyle{
+    margin: 10px auto;
+    border: none;
+    background: none;
+    border: 1px solid gray;
+    height: 45px;
+    width: 450px !important;
+    border-radius: 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.toggleBtnStyling{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.toggleBtn{
+    margin: 10px 0px;
+    border: none;
+    background: none;
+    color: #037FFF;
+
+}
+.btnParagraph{
+    color: rgb(255, 255, 255);
+    margin-top: 17px;
+    
+}
+.borderBottom{
+    border-bottom-color: #037FFF !important;
+    border-bottom-style: solid !important;
+    border-bottom-width: 1px !important;
+}
+
+
+@media screen and (max-width: 850px) {
+    .form-style{
+        padding: 25px;
+        height: 350px;
+        width: 400px;
+    }
+    .all-margin{
+        margin: 25px 0px;
+    }
+    .buttonstyle{
+        height: 30px;
+        width: 348px;
+ 
+    }
+    .linestyle{
+        margin: 15px 0;
+    }
+    .line{
+        width: 166px;
+    }
+    .BtnStyle{
+        height: 45px;
+        width: 375px !important;
+    }
+}
+
+
+@media screen and (max-width: 550px) {
+    .form-style{
+        padding: 25px;
+        height: 350px;
+        width: 300px;
+    }
+    .all-margin{
+        margin: 25px 0px;
+    }
+    .buttonstyle{
+        height: 30px;
+        width: 248px;
+ 
+    }
+    .linestyle{
+        margin: 15px 0;
+    }
+    .line{
+        width: 125px;
+    }
+    .BtnStyle{
+        height: 45px;
+        width: 280px !important;
+    }
+}
+@media screen and (max-width: 450px) {
+    .container{
+        margin-top: 70px;
+    }
+    .form-style{
+        padding: 25px;
+        height: 350px;
+        width: 300px;
+    }
+    .all-margin{
+        margin: 25px 0px;
+    }
+    .buttonstyle{
+        height: 30px;
+        width: 248px;
+ 
+    }
+    .linestyle{
+        margin: 15px 0;
+    }
+    .line{
+        width: 80px;
+    }
+    .BtnStyle{
+        height: 45px;
+        width: 280px !important;
+    }
+}
